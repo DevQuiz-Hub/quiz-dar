@@ -1,40 +1,38 @@
-# DAR Test – Banco de preguntas tipo test
+# quiz-dar 🧠
 
-Repositorio con un **banco de preguntas tipo test de la asignatura DAR (Desarrollo de Aplicaciones en Red)**, preparado para su uso en **GitHub Pages** como herramienta de práctica y autoevaluación.
+Interactive self-assessment test engine for **DAR (Desarrollo de Aplicaciones en Red / Web Application Development)**.
 
-## Contenido
-- ** preguntas tipo test**.
-- Preguntas organizadas por bloques del temario (HTML5, CSS3, JavaScript, AJAX, Bootstrap, MVC, SOA, HTTP, Grid, etc.).
-- Cada pregunta incluye:
-  - opciones de respuesta,
-  - respuesta correcta,
-  - justificación explicativa que se muestra tras responder.
+This repository contains an original self-assessment platform and curated question set created by the repository owner with AI-assisted content generation, validation and refinement workflows.
 
-## Origen del contenido
-- Preguntas recopiladas y adaptadas a partir de **materiales docentes y exámenes tipo** de la asignatura DAR.
-- Parte del contenido ha sido **estructurado y ampliado con apoyo de herramientas de inteligencia artificial**, con revisión y ajuste al temario.
+Part of the DevQuiz-Hub ecosystem.
 
-## Uso
-Repositorio orientado a:
-- práctica individual,
-- repaso de conceptos clave,
-- simulación de tests de examen.
+## 📚 Core Topics Covered
 
-La aplicación funciona como una **web estática** (HTML + JavaScript + JSON), sin necesidad de backend.
+* **Block 1:** HTML5 fundamentals, semantic markup, document structure and web standards.
+* **Block 2:** Forms, multimedia resources, metadata and modern HTML elements.
+* **Block 3:** CSS fundamentals, selectors, classes, identifiers and style inheritance.
+* **Block 4:** CSS3 features including transformations, transparency, layouts and visual effects.
+* **Block 5:** Responsive web design, external style sheets and separation of content and presentation.
+* **Block 6:** Front-end web development best practices and standards-based web technologies.
 
-## Aviso
-Este material es **exclusivamente educativo** y no constituye un banco oficial.  
-No se garantiza coincidencia exacta con exámenes reales.
+## 🛠️ Data Contract & Logic
 
-Las respuestas incluidas **no han sido validadas de forma oficial** y pueden contener errores puntuales.  
-Se recomienda **contrastar siempre con el temario y los materiales docentes oficiales**.
+This repository implements the standardized architecture of the organization:
 
-## Licencia
-Este repositorio se publica bajo licencia **Creative Commons BY-NC-SA 4.0**  
-(Atribución – No Comercial – Compartir Igual).
+* **`dar_questions.json`**: Contains the complete question bank, explanations and metadata.
+* **`quiz.js`**: Core engine responsible for question rendering, randomization and score calculation.
+* **`index.html`**: Lightweight client-side application with responsive interface.
+* **`styles.css`**: Visual customization and responsive design rules.
 
-El contenido puede utilizarse y compartirse con fines educativos,
-pero **no puede utilizarse con fines comerciales**.
+## ✨ Features
 
----
-Proyecto personal de estudio.
+* Randomized questions and answers
+* Detailed explanations after each question
+* Progress tracking
+* Instant scoring
+* Mobile-friendly interface
+* GitHub Pages compatible
+
+## 🚀 Live Demo
+
+🔗 **https://reichgp.github.io/quiz-dar/**
