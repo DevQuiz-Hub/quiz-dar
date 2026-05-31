@@ -35,4 +35,4 @@ This repository implements the standardized architecture of the organization:
 
 ## 🚀 Live Demo
 
-🔗 **https://reichgp.github.io/quiz-dar/**
+🔗 **https://devquiz-hub.github.io/quiz-dar/**
